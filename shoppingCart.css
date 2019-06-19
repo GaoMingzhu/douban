@@ -1,0 +1,219 @@
+.sc-title{
+	height:13rem;
+	width:90%;
+	color:#44883e;
+	font-size: 5.5rem;
+	line-height:13rem;
+	padding:0 5%;
+	background:white;
+	font-weight:550;
+}
+.sc-allBox{
+	height:8rem;
+	width:100%;
+	padding:2rem 0 2rem 0;
+	background:white;
+	font-size: 4rem;
+	line-height:8rem;
+	color:#ABABAC;
+	margin-bottom:0.5rem;
+}
+.quanxuan{
+	float: left;
+	height:3.5rem;
+	width:3.5rem;
+	border:0.2rem solid #ababac;
+	margin:2rem 4rem;
+}
+.gouxuan{
+	position: relative;
+	float: left;
+	height:3.5rem;
+	width:3.5rem;
+	border:0.2rem solid #ababac;
+	margin:10rem 4rem;
+}
+.sc-proItem{
+	position: relative;
+	height:25rem;
+	width:100%;
+	background:white;
+	margin-bottom: 0.4rem;
+}
+.sc-tip{
+	position: absolute;
+	height:25rem;
+	width:100%;
+	background:rgba(0,0,0,.5);
+	top:0;
+	right: 0;
+}
+.sc-tip-cancel{
+	float: left;
+	height:8rem;
+	width:24%;
+	margin:8rem 3rem 8rem 24%;
+	background:#ABABAC;
+	color:white;
+	text-align: center;
+	line-height:8rem;
+	font-size: 3.5rem;
+}
+.sc-tip-delete{
+	float: left;
+	height:8rem;
+	width:24%;
+	margin:8rem 0 8rem 0;
+	background:#73AD73;
+	color:white;
+	text-align: center;
+	line-height:8rem;
+	font-size: 3.5rem;
+}
+.sc-proImg{
+	float: left;
+	height:17rem;
+	width:19rem;
+	margin:4rem 0;
+}
+.sc-proImg img{
+	height:17rem;
+	width:17rem;
+}
+.sc-proDesc{
+	float: left;
+	height:17rem;
+	width:36rem;
+	margin:4rem 0 4rem 2rem;
+}
+.sc-buyDesc{
+	float: left;
+	height:17rem;
+	width:19rem;
+	margin:4rem 0;
+}
+.sc-delete{
+	position: absolute;
+	color:#ABABAC;
+	font-size: 3rem;
+	right:4rem;
+}
+.sc-unitPrice{
+	position: absolute;
+	color:#DD1944;
+	font-size:4rem;
+	bottom: 0rem;
+	right: 4rem; 
+}
+.sc-descTitle{
+	color:#3e3a39;
+	font-size: 3.5rem;
+}
+.sc-descDesc{
+	color:#ababac;
+	font-size: 3.1rem;
+	margin:2rem 0;
+}
+.sc-numberBox{
+	float: left;
+	height:6rem;
+	width:26rem;
+	border:0.5rem solid #F3F2F2;
+}
+.sc-jian{
+	float: left;
+	height:6rem;
+	width:8rem;
+	line-height: 5rem;
+	text-align: center;
+	font-size: 5rem;
+	color:#ABABAC;
+	background:#F3F2F2;
+}
+.sc-number{
+	float: left;
+	height:6rem;
+	width:10rem;
+	line-height: 5rem;
+	text-align: center;
+	font-size:4rem;
+	color:#3e3a39;
+	background:white;
+}
+.sc-jia{
+	float: right;
+	height:6rem;
+	width:8rem;
+	line-height: 5rem;
+	text-align: center;
+	font-size: 5rem;
+	color:#ABABAC;
+	background:#F3F2F2;
+}
+.sc-wicket{
+	height:12rem;
+	width:100%;
+	position: fixed;
+	bottom:0;
+	left:0;
+	background:white;
+}
+.sc-textQuanxuan{
+	font-size:4rem;
+	color:#3E3A39;
+	line-height: 8rem;
+	margin-left: 1rem;
+}
+.freight{
+	float: left;
+	text-align: center;
+	line-height: 0;
+	color:#ABABAC;
+	font-size: 3rem;
+}
+html{
+	padding:0 !important;
+}
+.gouxuanEffect::after{
+	background:#73ad73;
+	border: none;
+	content:'\2713';
+	color:white;
+	width:3.5rem;
+	height:3.5rem;
+	line-height: 3.5rem;
+	text-align: center;
+	display: block;
+	font-size: 3.5rem;
+}
+.sc-wicketQuanxuanBox{
+	float: left;
+	height:8rem;
+	width:34%;
+	padding:2rem 0;
+}
+.sc-price{
+	float:right;
+	height:12rem;
+	width:18%;
+	padding:0 40px;
+	color:#DD1944;
+	text-align: center;
+	line-height: 9rem;
+	font-size: 4.5rem;
+	font-weight:450;
+}
+.sc-buyRightNow{
+	float: right;
+	height:12rem;
+	width:33%;
+	background:#ABABAC;
+	text-align: center;
+	line-height:12rem;
+	color:white;
+	font-size:4rem;
+}
+.sc-buyRightNow-effect{
+	background:#DD1944;
+	color:white;
+}
