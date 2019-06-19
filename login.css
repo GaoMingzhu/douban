@@ -1,0 +1,71 @@
+html{
+	background:white;
+	padding:4%;
+}
+.setting{
+	background:white;
+}
+.lg-cancel{
+	height:4.5rem;
+	width:4.5rem;
+	background-image:url("data:image/svg+xml;charset=utf-8,<svg width='32' height='32' viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'><title>Group 31</title><g stroke='%23494949' stroke-width='2' fill='none' fill-rule='evenodd' stroke-linecap='round'><path d='M30.872 1.128L1 31M30.872 31L1 1.128'/></g></svg>");
+	background-size: 100%;
+}
+.head-box{
+	height:25rem;
+	width:100%;
+	margin-top:3rem;
+}
+.lg-headTitle{
+	float: left;
+	height:10rem;
+	width:100%;
+	font-size:8rem;
+	text-align: center;
+	margin-bottom: 2rem;
+}
+.lg-text1{
+	float: left;
+	color:#bababa;
+	font-size: 4rem;
+	margin-left: 5rem;
+}
+.lg-text2{
+	float: left;
+	color:#42bd56;
+	font-size: 4rem;
+	margin-left: 2rem;
+}
+.lg-container{
+	height:50rem;
+	width:100%;
+}
+.lg-inputBox{
+	float: left;
+	height:12rem;
+	width:100%;
+	border:1px solid #ccc;
+	font-size: 4rem;
+	color:#494949;
+	padding-left: 3rem;
+}
+.lg-border1{
+	border-top-left-radius:3px;
+	border-top-right-radius: 3px; 
+}
+.lg-border2{
+	border-bottom-left-radius: 3px;
+	border-bottom-right-radius: 3px;
+}
+.lg-loginBtn{
+	float: left;
+	height:12rem;
+	width:98%;
+	margin:5rem 1%;
+	background:rgba(66,189,86,.5);
+	color:white;
+	font-size: 4rem;
+	text-align: center;
+	line-height: 12rem;
+	border-radius: 0.5rem;
+}
