@@ -1,0 +1,225 @@
+html{
+	font-size: 62.5%;
+	padding:0;
+	margin:0;
+}
+.titleImg{
+	height:104rem;
+	width:100%;
+	background-size: 100%;
+}
+.desc-title{
+	float: left;
+	height:19rem;
+	width:100%;
+	line-height: 22rem;
+	text-align: center;
+	color:black;
+	font-size: 6.5rem;
+}
+.desc-price{
+	float: left;
+	height:12rem;
+	width:100%;
+	line-height: 2rem;
+	text-align: center;
+	color:#DD1944;
+	font-size: 3.5rem;
+}
+.desc-price span{
+	font-size: 4.5rem;
+	font-weight:600;
+}
+.desc-desc{
+	float: left;
+	height:5rem;
+	width:100%;
+	line-height: 5rem;
+	text-align: center;
+	color:#4f4f4f;
+	font-size: 3.3rem;
+}
+.buy-btn{
+	float: left;
+	width:73rem;
+	height:11rem;
+	color:white;
+	font-size:4rem;
+	text-align:center;
+	line-height:11rem;
+	background:#dd1944;
+	border-radius: 1.2rem;
+	margin:1.5rem 13rem;
+}
+.tip {
+	background: rgba(0, 0, 0, 0.4);
+	position: fixed;
+	left: 0;
+    top: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 999;
+}
+.wicket{
+	position: fixed;
+	bottom:0;
+	left: 0;
+	background:white;
+	width:100%;
+	height:67%;
+	padding-left:4rem;
+}
+.pro-box{
+	height:27rem;
+	width:100%;
+	margin-top:9rem;
+}
+.proImg{
+	float: left;
+	height:27rem;
+	width:27rem;
+	margin:0 3rem 0 0;
+}
+.proTitle{
+	color:#3e3a39;
+	font-size: 4rem;
+	margin-left:2rem;
+	margin-bottom:2rem;
+}
+.proPrice{
+	color:#DD1944;
+	font-size: 4rem;
+	margin-left:2rem;
+}
+.proDesc{
+	color:#5c5c5c;
+	font-size: 3.2rem;
+	margin-left: 2rem;
+	margin-top:7rem;
+}
+.wicketTitle{
+	font-size: 3.7rem;
+	color:#505050;
+	margin:2.5rem 0;
+}
+.chooseStyle{
+	float: left;
+	height:8rem;
+	line-height: 8rem;
+	text-align: center;
+	padding:0 4rem;
+	font-size: 3.5rem;
+	margin:0 3rem 3rem 0;
+	color:#505050;
+	background:#f7f7f7;
+}
+.active{
+	float: left;
+	height:8rem;
+	line-height: 8rem;
+	text-align: center;
+	padding:0 4rem;
+	font-size: 3.5rem;
+	margin:0 3rem 3rem 0;
+	color:#0aa082;
+	border:1px solid #0aa082;
+	background:white;
+}
+.choose{
+	width:100%;
+}
+.clearfix::after{
+	height:0;
+	content: "";
+	display: block;
+	clear:both;
+}
+.numberBox{
+	float: left;
+	width:27rem;
+	height:9rem;
+	background:white;
+	border:1px solid #505050;
+}
+.jian{
+	width:8.5rem;
+	height:9rem;
+	float: left;
+	color:#505050;
+	font-size: 6rem;
+	line-height: 9rem;
+	text-align: center;
+	background:#e4e4e4;
+}
+.jia{
+	width:8.5rem;
+	height:9rem;
+	float: right;
+	color:#505050;
+	font-size: 6rem;
+	line-height: 9rem;
+	text-align: center;
+	background:#e4e4e4;
+}
+.number{
+	float: left;
+	height:9rem;
+	width:10rem;
+	color:#5c5c5c;
+	line-height: 9rem;
+	text-align: center;
+	font-size: 4rem;
+}
+.buyBox{
+	position: absolute;
+	height:12rem;
+	width:100%;
+	bottom:0;
+	left: 0;
+	background:#ffffff;
+}
+.buyRightNow{
+	float: right;
+	height:12rem;
+	width:32%;
+	background:#e4e4e4;
+	color:#bdbdbd;
+	font-size: 4rem;
+	line-height: 12rem;
+	text-align: center;
+}
+.effect{
+	background:#DD1944;
+	color: white;
+}
+.addCart{
+	float: right;
+	height:12rem;
+	width:32%;
+	color:#E4E4E4;/*#505050*/
+	font-size: 4rem;
+	line-height: 12rem;
+	text-align: center;
+}
+.addEffect{
+	color:#505050;
+}
+.cancel::after{
+	position: absolute;
+	content: "\2715";
+	display:block;
+	width:10rem;
+	height:10rem;
+	line-height: 10rem;
+	text-align: center;
+	font-size:5rem;
+	font-weight:700;
+	color:#b4b4b4;
+	right:5rem;
+	top:0;
+	font-weight: 800;
+    font-style:normal;
+}
+.dt-container img{
+	width:100%;
+}
